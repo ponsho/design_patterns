@@ -1,3 +1,13 @@
+
+/* The Strategy design pattern allow us
+ * to change the behavior of a method in runtime.
+ * By adding an interface and a family of classes that implements
+ * the interface, we can quickly change the implementation
+ * at runtime. 
+ * Strategy pattern defines a family of algorithms, encapsulates each
+ * algorithm and makes the algorithms interchangeables within that family
+ */
+
 interface FlyBehavior {
 	public void fly();
 }
@@ -68,3 +78,4 @@ public class Strategy {
 
   }
 }
+
